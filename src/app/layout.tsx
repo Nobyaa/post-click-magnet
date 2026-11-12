@@ -13,25 +13,25 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://kalpriti.com'),
-  title: 'KalpRiti — Turning Clicks into Understanding',
+  title: 'The Click Gap | KalpRiti',
   description:
-    'A mobile-first interactive experience for complex D2C brands: why the click is where customers get lost, and how to fix it.',
+    'A 3-minute interactive look at why good ads still lose customers after the click.',
   robots: {
     index: false,
     follow: false,
   },
   openGraph: {
-    title: 'KalpRiti — Turning Clicks into Understanding',
+    title: 'The Click Gap | KalpRiti',
     description:
-      'For complex D2C brands: why the click is where customers get lost, and how to fix it.',
+      'A 3-minute interactive look at why good ads still lose customers after the click.',
     url: 'https://kalpriti.com/the-click-gap',
     siteName: 'KalpRiti',
     images: [
       {
-        url: '/the-click-gap/Assets/founder.jpg',
+        url: '/the-click-gap/Assets/og/the-click-gap-og-v1.jpg',
         width: 1200,
         height: 630,
-        alt: 'KalpRiti Lead Conversion Magnet',
+        alt: "Your ad isn't the problem. The click is where customers get lost.",
       },
     ],
     locale: 'en_US',
@@ -39,10 +39,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'KalpRiti — Turning Clicks into Understanding',
+    title: 'The Click Gap | KalpRiti',
     description:
-      'For complex D2C brands: why the click is where customers get lost, and how to fix it.',
-    images: ['/the-click-gap/Assets/founder.jpg'],
+      'A 3-minute interactive look at why good ads still lose customers after the click.',
+    images: ['/the-click-gap/Assets/og/the-click-gap-og-v1.jpg'],
   },
   icons: {
     icon: [
