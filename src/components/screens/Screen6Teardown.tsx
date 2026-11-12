@@ -24,21 +24,21 @@ export function Screen6Teardown({ onNext, onTeardownToggle }: Screen6TeardownPro
       id: 'post-click1',
       title: 'Product Landing',
       caption: 'The product page reached after the click.',
-      src: '/Assets/Teardown/post-click1.png',
+      src: '/the-click-gap/Assets/Teardown/post-click1.png',
       alt: 'Product page reached after click',
     },
     {
       id: 'post-click2',
       title: 'Action Overload',
       caption: 'Three competing actions: buy, book a live demo, or talk to AI assistant.',
-      src: '/Assets/Teardown/post-click2.png',
+      src: '/the-click-gap/Assets/Teardown/post-click2.png',
       alt: 'Competing actions on product landing page',
     },
     {
       id: 'assistant-prompt',
       title: 'Assistant Friction',
       caption: 'The form that opens when the AI assistant is tapped, asking for a phone number.',
-      src: '/Assets/Teardown/assistant-prompt.png',
+      src: '/the-click-gap/Assets/Teardown/assistant-prompt.png',
       alt: 'Form asking for phone number upon tapping assistant',
     },
   ];
@@ -90,7 +90,7 @@ export function Screen6Teardown({ onNext, onTeardownToggle }: Screen6TeardownPro
           <Glass className="p-3.5 flex flex-col gap-2.5">
             <div className="relative w-full h-[180px] bg-ink/5 rounded-lg overflow-hidden border border-ink/10">
               <Image
-                src="/Assets/Teardown/ad.png"
+                src="/the-click-gap/Assets/Teardown/ad.png"
                 alt="Eureka Forbes ad creative with Learn more button"
                 fill
                 sizes="(max-width: 480px) 90vw, 400px"
@@ -166,7 +166,7 @@ export function Screen6Teardown({ onNext, onTeardownToggle }: Screen6TeardownPro
             <Glass className="mt-1 p-2.5 overflow-hidden">
               <div className="relative w-full h-[240px] bg-ink/5 rounded-lg overflow-y-auto border border-ink/10 p-1">
                 <Image
-                  src="/Assets/Teardown/post-click-scroll.png"
+                  src="/the-click-gap/Assets/Teardown/post-click-scroll.png"
                   alt="Eureka Forbes full page scroll capture"
                   width={600}
                   height={2200}
