@@ -12,37 +12,28 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kalpriti.com'),
-  title: 'The Click Gap | KalpRiti',
+  metadataBase: new URL('https://www.kalpriti.com'),
+  title: "Your ad isn't the problem. The click is where customers get lost.",
   description:
-    'A 3-minute interactive look at why good ads still lose customers after the click.',
+    'A 2-minute interactive look at why good ads still lose customers after the click.',
   robots: {
     index: false,
     follow: false,
   },
   openGraph: {
-    title: 'The Click Gap | KalpRiti',
+    title: "Your ad isn't the problem. The click is where customers get lost.",
     description:
-      'A 3-minute interactive look at why good ads still lose customers after the click.',
-    url: 'https://kalpriti.com/the-click-gap',
+      'A 2-minute interactive look at why good ads still lose customers after the click.',
+    url: 'https://www.kalpriti.com/the-click-gap',
     siteName: 'KalpRiti',
-    images: [
-      {
-        url: '/the-click-gap/Assets/og/the-click-gap-og-v1.jpg',
-        width: 1200,
-        height: 630,
-        alt: "Your ad isn't the problem. The click is where customers get lost.",
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'The Click Gap | KalpRiti',
+    card: 'summary',
+    title: "Your ad isn't the problem. The click is where customers get lost.",
     description:
-      'A 3-minute interactive look at why good ads still lose customers after the click.',
-    images: ['/the-click-gap/Assets/og/the-click-gap-og-v1.jpg'],
+      'A 2-minute interactive look at why good ads still lose customers after the click.',
   },
   icons: {
     icon: [
